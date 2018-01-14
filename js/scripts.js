@@ -40,5 +40,4 @@ $(function(){
 	$('.dot1').on('click', function() {
 		 
 	});
-
 });
