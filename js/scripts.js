@@ -46,22 +46,14 @@ $(function(){
 		var currentSlide = carouselList.find("li:first").data("slide");
 		var currentDot = $(this).index() +1;
 		if (currentDot < currentSlide) {
-			for (i = currentSlide; i >= currentDot; i--) {
+			for (var i = currentSlide; i >= currentDot; i--) {
 			changeSlide('left');
 			};
 		} else {
-			for (i = currentSlide; i < currentDot; i++){
+			for (var i = currentSlide; i < currentDot; i++){
 				changeSlide('right');
 			}
 		}
 	});
 		
 });
-
-		 	
-
-
-	 
-				
-	
-
